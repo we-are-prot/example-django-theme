@@ -5,7 +5,7 @@
     "pages": [
         {
             "name": "Example Index",
-            "contexts": ["context.json"],
+            "contexts": ["example_context.json"],
             "template": "index.html"
         }
     ]
