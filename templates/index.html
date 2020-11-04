@@ -1,4 +1,9 @@
+{% extends "base.html" %}
 {% load static %}
+
+
+{% block content %}
 <h1>{{ header }}</h1>
 <p>{{ body }}</p>
 <img src="{% static 'cat.jpg' %}">
+{% endblock content %}
